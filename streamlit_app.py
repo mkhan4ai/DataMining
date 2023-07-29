@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit.components.v1 import IFrame
 from datetime import datetime
 
 def main():
@@ -29,7 +28,8 @@ def main():
 
     # Add an iframe that points to your Google Colab notebook
     colab_url = "https://colab.research.google.com/drive/1TGaSLNcVtCKfWYYm3QvSg1J4gIq7sqJl"
-    IFrame(colab_url, width=800, height=600)
+    st.components.v1.html(f'<iframe src="{colab_url}" width=800 height=600></iframe>',
+                           scrolling=True)
 
 if __name__ == "__main__":
     main()
