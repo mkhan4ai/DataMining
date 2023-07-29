@@ -25,7 +25,6 @@ def main():
     You can find the source code for this app on [GitHub](https://github.com/your-username/your-repo).
     Dataset source: https://data.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-P/dttw-5yxu
     MetaData Source: https://chronicdata.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-H/iuq5-y9ct/data
-   
     """)
 
     # Add an iframe that points to your Google Colab notebook
