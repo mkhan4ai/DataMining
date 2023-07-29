@@ -9,14 +9,7 @@ def main():
     # Display current date and time
     current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     st.write("Current Date & Time:", current_datetime)
-
-    # Option to switch between dark and light mode
-    theme_mode = st.radio("Select Theme Mode:", ["Light", "Dark"])
-    if theme_mode == "Dark":
-        st.experimental_set_query_params(theme="dark")
-    else:
-        st.experimental_set_query_params(theme="default")
-    
+ 
     #st.write("Dataset source: https://data.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-P/dttw-5yxu")
 
     # Inserting page description using Markdown
