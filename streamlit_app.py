@@ -15,10 +15,11 @@ def main():
 
     # Inserting page description using Markdown
     st.markdown("""
-   The app will utilize separate deep learning models trained on the Behavioral Risk Factor Surveillance System (BRFSS) 
+       The app will utilize separate deep learning models trained on the Behavioral Risk Factor Surveillance System (BRFSS) 
    dataset for each health condition. By inputting their information through the app, users will receive personalized predictions and 
-   gain insights into potential health risks, empowering them to make informed decisions about their well-being. The project aims to provide a valuable tool for 
-   individuals to assess their health and facilitate early intervention, promoting a proactive approach to healthcare management.
+   gain insights into potential health risks, empowering them to make informed decisions about their well-being. 
+   The project aims to provide a valuable tool for individuals to assess their health and facilitate early intervention, 
+   promoting a proactive approach to healthcare management.
 
     You can find the source code for this app on [GitHub](https://github.com/your-username/your-repo).
 
