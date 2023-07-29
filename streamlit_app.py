@@ -3,7 +3,6 @@ from datetime import datetime
 
 def main():
     st.title("Health Predictor: Deep Learning and Data Mining Project for Personalized Health Risk Assessment")
-    
     # Adding subtitles
     st.subheader("By Mushtari Khan")
 
