@@ -25,15 +25,9 @@ def main():
     MetaData Source: https://chronicdata.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-H/iuq5-y9ct/data
     """)
 
-   # Text box
-    user_input = st.text_input("Enter your Name:", "")
-
-    # Select option
-    option = st.selectbox("Select an option:", ["Option 1", "Option 2", "Option 3"])
-
-    # Display the user input and selected option
-    st.write("You entered:", user_input)
-    st.write("You selected:", option)
+    # Add an iframe that points to your Google Colab notebook
+    colab_url = "https://colab.research.google.com/drive/1TGaSLNcVtCKfWYYm3QvSg1J4gIq7sqJl"
+    IFrame(colab_url, width=800, height=600)
 
 if __name__ == "__main__":
     main()
