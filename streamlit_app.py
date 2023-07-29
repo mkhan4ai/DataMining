@@ -1,7 +1,10 @@
 import streamlit as st
 
 def main():
-    st.title("Text Box and Select Option")
+    st.title("Mushtari Khan's Data Mining Project")
+
+    st.write("Dataset source: https://data.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-P/dttw-5yxu")
+
 
     # Text box
     user_input = st.text_input("Enter some text:", "")
