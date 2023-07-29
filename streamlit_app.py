@@ -5,8 +5,7 @@ def main():
 
     st.write("Dataset source: https://data.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-P/dttw-5yxu")
 
-
-    # Text box
+   # Text box
     user_input = st.text_input("Enter some text:", "")
 
     # Select option
