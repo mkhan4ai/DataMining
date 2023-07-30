@@ -22,6 +22,7 @@ def main():
    The project aims to provide a valuable tool for individuals to assess their health and facilitate early intervention, 
    promoting a proactive approach to healthcare management.
 
+
     Following are the resources:
     Github Source Code: https://github.com/mkhan4ai/DataMining/edit/App/streamlit_app.py
     Google Colab Code: https://colab.research.google.com/drive/1TGaSLNcVtCKfWYYm3QvSg1J4gIq7sqJl?usp=sharing
