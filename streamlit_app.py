@@ -22,7 +22,9 @@ def main():
    The project aims to provide a valuable tool for individuals to assess their health and facilitate early intervention, 
    promoting a proactive approach to healthcare management.
 
-    You can find the source code for this app on [GitHub](https://github.com/your-username/your-repo).
+    Following are the resources:
+    Github Source Code: https://github.com/mkhan4ai/DataMining/edit/App/streamlit_app.py
+    Google Colab Code: https://colab.research.google.com/drive/1TGaSLNcVtCKfWYYm3QvSg1J4gIq7sqJl?usp=sharing
     Dataset source: https://data.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-P/dttw-5yxu
     MetaData Source: https://chronicdata.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-H/iuq5-y9ct/data
     """)
